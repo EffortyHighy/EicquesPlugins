@@ -25,7 +25,8 @@ class usefulBlock {
                 'text': 'eval [code]',
                 'arguments': {
                     'code': {
-                        'type': 'string'
+                        'type': 'string',
+                        'defaultValue': '0.1 + 0.2'
                     }
                 }    
             },
@@ -46,7 +47,8 @@ class usefulBlock {
                 'text': 'run code [codes]',
                 'arguments': {
                     'codes': {
-                        'type': 'string'
+                        'type': 'string',
+                        'defaultValue': 'console.log(\'hello world!\');'
                     }
                 }    
             },
