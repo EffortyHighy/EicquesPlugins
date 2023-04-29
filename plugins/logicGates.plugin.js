@@ -130,7 +130,7 @@ class logicGates {
         }
     }
     XNOR({first, second}) {
-        if (!(first && second) || (first && second)) {
+        if ((!(first) && !(second)) || (first && second)) {
             return true;
         } else {
             return false;
